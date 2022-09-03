@@ -12,7 +12,7 @@ var goodNodes = function (root) {
 /**
  * @param {TreeNode} root
  * @param {number} currentMaxOnPath 
- * @return {number}
+ * @return {void}
  */
 function countGoodNodes(root, currentMaxOnPath) {
     if (root.val >= currentMaxOnPath) {
